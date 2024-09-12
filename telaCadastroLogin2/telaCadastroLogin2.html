@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="telaCadastroLogin2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="buttonsForm">
+
+            <div class="btnColor"></div>
+            <button id="btnSignIn" onclick="irLogin()">Login</button>
+            <button id="btnSignUp" onclick="irRegistar()">Registe-se</button>
+        </div>
+
+        <form action="" id="signIn">
+            <input type="text" placeholder="Email" required>
+            <i class="fas fa-envelope iEmail"></i>
+
+            <input type="password" placeholder="Password" required>
+            <i class="fas fa-lock iPassword"></i>
+
+            <div class="divCheck">
+                <input type="checkbox">
+                <span>Relembrar Password</span>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <form action="" id="signUp">
+            <input type="text" placeholder="Email" required>
+            <i class="fas fa-envelope iEmail"></i>
+
+            <input type="password" placeholder="Password" required>
+            <i class="fas fa-lock iPassword"></i>
+
+            <input type="password" placeholder="Password" required>
+            <i class="fas fa-lock iPassword2"></i>
+
+            <div class="divCheck">
+                <input type="checkbox">
+                <span>Termos</span>
+            </div>
+
+            <button type="submit">Registar</button>
+        </form>
+
+
+    </div>
+
+
+     
+    <script src="telaCadastroLogin2.js"></script>
+</body>
+</html>
