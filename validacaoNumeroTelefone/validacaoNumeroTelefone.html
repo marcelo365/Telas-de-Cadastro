@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validacaoNumeroTelefone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div class="select-box">
+
+        <div class="selected-option">
+
+            <div class="opcaoSeleccionada" onclick="mostrarDropdownPaises()">
+
+                <div class="bandeiraSeleccionada">
+                    <span class="iconify" data-icon="flag:ao-4x3"></span>
+                </div>
+
+                <span class="codigoSeleccionado">+244</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <input type="number" placeholder="Número de telefone">
+        </div>
+
+        <div class="options">
+            <ol class="listaPaises">
+
+                <!--<li class="option">
+                    <div>
+                        <span class="iconify" data-icon="flag:ao-4x3"></span>
+                        <span class="country-name">United Stated</span>
+                    </div>
+                    <strong>+44</strong>
+                </li>-->
+
+            </ol>
+        </div>
+
+    </div>
+
+    <script src="validacaoNumeroTelefone.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</body>
+
+</html>
